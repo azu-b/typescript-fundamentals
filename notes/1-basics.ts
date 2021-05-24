@@ -42,8 +42,8 @@ z = "abc"; // (6) oh no! This isn't good
  * (7) we could improve this situation by providing a type annotation
  * when we declare our variable
  */
-// let zz: number;
-// zz = 41;
+let zz: number;
+zz = 41;
 // zz = "abc"; // 🚨 ERROR Type '"abc"' is not assignable to type 'number'.
 
 //== SIMPLE ARRAYS ==//
